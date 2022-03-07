@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario del Pastel</title>
+</head> 
+<body>
+    <h1>Escoje como quieres tu pastel</h1>
+    <p>En este espacio puedes selecionar el tipo de pastel que deseas así como modificar algunas cosas de tu pastel</p>
+    <h2>Tipo de pastel</h2>
+    <p>Elige un pastel: <br>
+        <select name="Tpastesl">
+            <option></option>
+          <option>Tarta Frutal</option>
+          <option>Cheesecake</option>
+          <option>Pastel</option>
+          <option>Cupcake</option>
+          <option>Tiramisu</option>
+          <option>3 Leches</option>
+          <option>Opera</option>
+        </select>
+     </p>
+     <p>Elige la presentación de la caja: <br>
+        <select name="Cajal">
+            <option></option>
+          <option>Regalo de amor</option>
+          <option>Cumpleaños</option>
+          <option>Fiesta</option>
+          <option>Regalo</option>
+        </select>
+     </p>
+     <label for="Input1">Datos extras que desee cambiar del pedido</label> <br>
+    <input type="text" id="Input1" name="Input1">
+     <h2>Agregue su contacto</h2>
+     <label for="Nombre">Nombre del cliente</label><br>
+     <input type="text" id="Nombre" name="Nombre"> <br>
+    <label for="correo1">Correo elctronico de contacto</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+    <label for="tel1">Telefono de contacto 1</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+    <label for="tel2">Telefono de contacto 2</label><br>
+    <input type="tel" id="tel2" name="tel2" maxlength="10"><br><br>
+    <label for="fecha1">Fecha que desea la entrega</label><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="time" id="fecha2" name="fecha2"><br>
+    <br>
+    <input type="button" id="button1" name="Pagar" value="Pagar" onclick="alert('Pagina de testeo')">
+</body>
