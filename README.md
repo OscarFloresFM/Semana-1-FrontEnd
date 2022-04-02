@@ -16,5 +16,8 @@ Ejercisio 5           https://www.figma.com/file/E5fxww49dQbw9jelSalSLi/Untitled
 Sig Semanas link de repositorios:
 
 https://github.com/OscarFloresFM/Semana-3
+
 https://github.com/OscarFloresFM/Pokedex
+
 https://github.com/OscarFloresFM/Katas
+
